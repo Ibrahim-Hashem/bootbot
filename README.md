@@ -1,1 +1,1 @@
-# BookBot comming soon!
+# BookBot character counting app!
