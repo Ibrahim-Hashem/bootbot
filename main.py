@@ -13,7 +13,7 @@ with open("books/text.txt") as file:
     hash = charCountFn(textArr)
     ol = sorted(list(hash))
 
-    print(f"""--- Begin report of books/frankenstein.txt ---\n{wordCount} words found in the document""")
+    print(f"""--- Begin report of books/text.txt ---\n{wordCount} words found in the document""")
     for c in ol:
         count = hash[c]
         print(f"The '{c}' character was found {count} times")
